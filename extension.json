@@ -1,13 +1,13 @@
 {
-  "name": "yadi-controller",
-  "apiVersion": "1.0.0",
-  "author": "Tim Reyes",
-  "version": "0.0.1",
-  "description": "A yadi controller that outputs frame details and type",
-  "extensions": {
-    "Sample HLA": {
-      "type": "HighLevelAnalyzer",
-      "entryPoint": "HighLevelAnalyzer.Hla"
+    "name": "Yadei Controller Protocol",
+    "apiVersion": "1.0.0",
+    "author": "Your Name",
+    "version": "0.1.0",
+    "description": "雅迪一线通控制器协议解析器",
+    "extensions": {
+        "Yadei Controller Protocol": {
+            "type": "HighLevelAnalyzer",
+            "entryPoint": "HighLevelAnalyzer.Hla"
+        }
     }
-  }
 }
