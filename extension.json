@@ -1,0 +1,13 @@
+{
+  "name": "yadi-controller",
+  "apiVersion": "1.0.0",
+  "author": "Tim Reyes",
+  "version": "0.0.1",
+  "description": "A yadi controller that outputs frame details and type",
+  "extensions": {
+    "Sample HLA": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
